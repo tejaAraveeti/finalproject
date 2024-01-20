@@ -1,0 +1,25 @@
+
+.seat-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .booked {
+    background-color: #ff9999;
+    cursor: not-allowed;
+  }
+  
+ 
+  

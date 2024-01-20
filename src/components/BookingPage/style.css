@@ -1,0 +1,65 @@
+/* BookingPage.css */
+
+.booking-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .booking-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .booking-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .booking-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .booking-container button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  .seat-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .seat-list-item {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .seat-list-item:hover {
+    background-color: #ddd;
+  }
+  

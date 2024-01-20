@@ -1,0 +1,63 @@
+/* MovieList.css */
+
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* MovieFilter.css */
+  
+  /* Add your styles for the filter component here */
+  
+  /* MovieCard.css */
+  
+  .card-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 2px 5px rgba(2, 2, 2, 0.1);
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .card-img-container {
+    width: 100%;
+    height: 20rem;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-details {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+  }
+  
+  .genre {
+    font-style: italic;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: space-between;
+  }
+  
